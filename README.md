@@ -69,6 +69,8 @@ Multiple machine learning algorithms were utilized in the development of the rea
     <td>-1.34</td>
   </tr>
   </table>
+  
+Based on the given evaluation metrics, linear regression performs the best among the four models with the lowest MAE and MSE values, as well as the highest R2 score. This indicates that the linear regression model provides relatively accurate predictions and explains approximately 82.31% of the variance in the target variable. Therefore, choosing linear regression as the preferred model for real estate price prediction is a reasonable decision.
 
 
 
