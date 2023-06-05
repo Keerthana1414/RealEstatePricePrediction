@@ -10,7 +10,66 @@ The dataset utilized for this project was sourced from Kaggle and contains a ran
 The collected data was carefully cleaned and preprocessed to ensure consistency and reliability. This involved addressing missing values, removing outliers, and effectively handling any noise present in the dataset.
 
 ### Model Development 
-Multiple machine learning algorithms were utilized in the development of the real estate price prediction model, including linear regression, decision trees, lasso, and support vector machine.
+Multiple machine learning algorithms were utilized in the development of the real estate price prediction model, including linear regression, decision trees, lasso, and support vector machine. In addition, k-fold cross-validation was performed to evaluate the performance and generalization capabilities of the real estate price prediction model. 
+
+### Model Evaluation
+
+#### Linear Regression
+<table>
+  <tr>
+    <th>Mean Absolute Error (MAE)</th>
+    <th>Mean Squared Error (MSE)</th>
+    <th> R-squared (R2)</th>
+  </tr>
+  <tr>
+    <td>18.60</td>
+    <td>1231.50</td>
+    <td>0.82</td>
+  </tr>
+  </table>
+  
+  #### Lasso Regression
+<table>
+  <tr>
+    <th>Mean Absolute Error (MAE)</th>
+    <th>Mean Squared Error (MSE)</th>
+    <th> R-squared (R2)</th>
+  </tr>
+  <tr>
+    <td>24.28</td>
+    <td>2569.46</td>
+    <td>0.59</td>
+  </tr>
+  </table>
+  
+  #### Decision Tree Regression
+<table>
+  <tr>
+    <th>Mean Absolute Error (MAE)</th>
+    <th>Mean Squared Error (MSE)</th>
+    <th> R-squared (R2)</th>
+  </tr>
+  <tr>
+    <td>20.55</td>
+    <td>2302.94</td>
+    <td>0.66</td>
+  </tr>
+  </table>
+  
+  #### Support Vector Regression
+<table>
+  <tr>
+    <th>Mean Absolute Error (MAE)</th>
+    <th>Mean Squared Error (MSE)</th>
+    <th> R-squared (R2)</th>
+  </tr>
+  <tr>
+    <td>24.32</td>
+    <td>5165.44</td>
+    <td>-1.34</td>
+  </tr>
+  </table>
+
 
 
 
